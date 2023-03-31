@@ -51,7 +51,7 @@ header {
 .cahirman {
     display: flex;
     align-items: center;
-    background-color: rgb(126, 148, 150);
+    background-color: rgb(165, 110, 110);
     padding: 0 5%;
     margin-top: 5vw;
 }
@@ -78,4 +78,27 @@ header {
 #phone-number {
     color: whitesmoke;
     font-size: 1.5vw;
+}
+
+
+/* media queary */
+@media screen and (max-width:576px) {
+    header {
+        flex-direction: column;
+    }
+
+    .header-text,
+    .header-image {
+        width: 100%;
+    }
+
+    .cahirman {
+        flex-direction: column;
+    }
+
+    .chairman-text,
+    .chairman-image {
+        width: 100%;
+        text-align: center;
+    }
 }
