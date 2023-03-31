@@ -104,6 +104,10 @@ header {
         width: 100%;
     }
 
+    .header-text>h1 {
+        font-size: 9vw;
+    }
+
     .cahirman {
         flex-direction: column;
     }
