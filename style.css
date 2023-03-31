@@ -52,7 +52,7 @@ header {
 /* mid image */
 
 .mid-img {
-    margin-top: 5vw;
+    margin-top: 15vw;
 }
 
 /* cahirman style */
@@ -62,7 +62,7 @@ header {
     align-items: center;
     /* background-color: rgb(165, 110, 110); */
     padding: 0 5%;
-    margin-top: 5vw;
+    margin-top: 15vw;
 }
 
 #chairman-name {
