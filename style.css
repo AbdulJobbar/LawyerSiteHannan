@@ -22,19 +22,21 @@ header {
 .header-text {
     background-color: rgb(165, 110, 110);
     padding: 1% 0;
-    box-shadow: -5px 5px 15px rgb(0, 0, 0);
-    border: 2px solid white;
+    /* box-shadow: -5px 5px 15px rgb(0, 0, 0); */
+    /* border: 2px solid white; */
 }
 
 .header-text>h1 {
-    font-size: 5em;
+    font-size: 5vw;
     text-align: center;
     color: rgb(233, 226, 226);
-    padding-left: 5%;
+    /* padding: 5%; */
+    text-overflow: scroll;
 }
 
 .header-image {
     background-color: whitesmoke;
+    width: 5vw;
 
 }
 
@@ -51,11 +53,11 @@ header {
     align-items: center;
     background-color: rgb(126, 148, 150);
     padding: 0 5%;
-    margin-top: 100px;
+    margin-top: 5vw;
 }
 
 #chairman-name {
-    font-size: 5em;
+    font-size: 5vw;
     margin-bottom: 0;
     color: white;
 }
@@ -63,7 +65,7 @@ header {
 #post {
     padding: 0;
     margin: 0;
-    font-size: 2em;
+    font-size: 2vw;
     font-weight: 400;
     color: rgb(211, 211, 211);
 }
@@ -75,4 +77,5 @@ header {
 
 #phone-number {
     color: whitesmoke;
+    font-size: 1.5vw;
 }
