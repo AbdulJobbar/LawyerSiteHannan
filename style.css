@@ -22,6 +22,8 @@ header {
 .header-text {
     background-color: rgb(165, 110, 110);
     padding: 1% 0;
+    max-height: 400px;
+    /* width: 5vw; */
     /* box-shadow: -5px 5px 15px rgb(0, 0, 0); */
     /* border: 2px solid white; */
 }
@@ -37,6 +39,7 @@ header {
 .header-image {
     background-color: whitesmoke;
     width: 5vw;
+    max-height: 400px;
 
 }
 
@@ -51,7 +54,7 @@ header {
 .cahirman {
     display: flex;
     align-items: center;
-    background-color: rgb(165, 110, 110);
+    /* background-color: rgb(165, 110, 110); */
     padding: 0 5%;
     margin-top: 5vw;
 }
@@ -68,6 +71,15 @@ header {
     font-size: 2vw;
     font-weight: 400;
     color: rgb(211, 211, 211);
+}
+
+.chairman-text {
+    background-color: rgb(165, 110, 110);
+    padding: 9vw 5vw;
+}
+
+.chairman-image {
+    background-color: whitesmoke;
 }
 
 .chairman-text,
@@ -100,5 +112,9 @@ header {
     .chairman-image {
         width: 100%;
         text-align: center;
+    }
+
+    .chairman-image {
+        padding: 0 5vw;
     }
 }
